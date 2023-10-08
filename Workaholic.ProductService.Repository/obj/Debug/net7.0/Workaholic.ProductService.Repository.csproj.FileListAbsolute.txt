@@ -1,0 +1,17 @@
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/bin/Debug/net7.0/Workaholic.ProductService.Repository.deps.json
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/bin/Debug/net7.0/Workaholic.ProductService.Repository.runtimeconfig.json
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/bin/Debug/net7.0/Workaholic.ProductService.Repository.dll
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/bin/Debug/net7.0/Workaholic.ProductService.Repository.pdb
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/bin/Debug/net7.0/Workaholic.ProductService.Domain.dll
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/bin/Debug/net7.0/Workaholic.ProductService.Domain.pdb
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/obj/Debug/net7.0/Workaholic.ProductService.Repository.csproj.AssemblyReference.cache
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/obj/Debug/net7.0/Workaholic.ProductService.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/obj/Debug/net7.0/Workaholic.ProductService.Repository.AssemblyInfoInputs.cache
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/obj/Debug/net7.0/Workaholic.ProductService.Repository.AssemblyInfo.cs
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/obj/Debug/net7.0/Workaholic.ProductService.Repository.csproj.CoreCompileInputs.cache
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/obj/Debug/net7.0/Workaholic.ProductService.Repository.csproj.CopyComplete
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/obj/Debug/net7.0/Workaholic.ProductService.Repository.dll
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/obj/Debug/net7.0/refint/Workaholic.ProductService.Repository.dll
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/obj/Debug/net7.0/Workaholic.ProductService.Repository.pdb
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/obj/Debug/net7.0/Workaholic.ProductService.Repository.genruntimeconfig.cache
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/obj/Debug/net7.0/ref/Workaholic.ProductService.Repository.dll

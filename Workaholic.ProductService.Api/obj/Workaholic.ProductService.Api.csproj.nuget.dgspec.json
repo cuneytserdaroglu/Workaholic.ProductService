@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Api/Workaholic.ProductService.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Api/Workaholic.ProductService.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Api/Workaholic.ProductService.Api.csproj",
+        "projectName": "Workaholic.ProductService.Api",
+        "projectPath": "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Api/Workaholic.ProductService.Api.csproj",
+        "packagesPath": "/Users/cuneytserdaroglu/.nuget/packages/",
+        "outputPath": "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cuneytserdaroglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/Workaholic.ProductService.Repository.csproj": {
+                "projectPath": "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/Workaholic.ProductService.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/Workaholic.ProductService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/Workaholic.ProductService.Domain.csproj",
+        "projectName": "Workaholic.ProductService.Domain",
+        "projectPath": "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/Workaholic.ProductService.Domain.csproj",
+        "packagesPath": "/Users/cuneytserdaroglu/.nuget/packages/",
+        "outputPath": "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cuneytserdaroglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/Workaholic.ProductService.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/Workaholic.ProductService.Repository.csproj",
+        "projectName": "Workaholic.ProductService.Repository",
+        "projectPath": "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/Workaholic.ProductService.Repository.csproj",
+        "packagesPath": "/Users/cuneytserdaroglu/.nuget/packages/",
+        "outputPath": "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cuneytserdaroglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/Workaholic.ProductService.Domain.csproj": {
+                "projectPath": "/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/Workaholic.ProductService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

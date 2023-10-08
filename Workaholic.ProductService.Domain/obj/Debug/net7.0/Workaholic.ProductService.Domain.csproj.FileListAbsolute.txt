@@ -1,0 +1,11 @@
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/bin/Debug/net7.0/Workaholic.ProductService.Domain.deps.json
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/bin/Debug/net7.0/Workaholic.ProductService.Domain.dll
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/bin/Debug/net7.0/Workaholic.ProductService.Domain.pdb
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/obj/Debug/net7.0/Workaholic.ProductService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/obj/Debug/net7.0/Workaholic.ProductService.Domain.AssemblyInfoInputs.cache
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/obj/Debug/net7.0/Workaholic.ProductService.Domain.AssemblyInfo.cs
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/obj/Debug/net7.0/Workaholic.ProductService.Domain.csproj.CoreCompileInputs.cache
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/obj/Debug/net7.0/Workaholic.ProductService.Domain.dll
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/obj/Debug/net7.0/refint/Workaholic.ProductService.Domain.dll
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/obj/Debug/net7.0/Workaholic.ProductService.Domain.pdb
+/Users/cuneytserdaroglu/Desktop/TrainingProject/Workaholic.ProductService/Workaholic.ProductService.Domain/obj/Debug/net7.0/ref/Workaholic.ProductService.Domain.dll

@@ -1,0 +1,18 @@
+﻿services:
+  workaholic.productservice.api:
+    image: workaholic.productservice.api
+    build:
+      context: .
+      dockerfile: Workaholic.ProductService.Api/Dockerfile
+    depends_on:
+      - sqlserver
+  sqlserver:
+    image: "mcr.microsoft.com/azure-sql-edge:latest"
+    container_name: sqlserver
+    environment:
+      MSSQL_SA_PASSWORD: "cuneyt43FB."
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+      MSSQL_USER: "sa"
+    ports:
+      - "1433:1433"
