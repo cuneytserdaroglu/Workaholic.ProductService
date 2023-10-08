@@ -19,7 +19,7 @@ builder.Services.AddDbContext<UdemyUnitTestDBContext>(options =>
 {
     options.UseSqlServer(builder.Configuration["SqlConStr"]);
 });
-
+builder.Services.AddHttpClient();
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Workaholic.ProductService.Domain;
 using Workaholic.ProductService.Repository;
 
@@ -14,10 +15,14 @@ namespace Workaholic.ProductService.Api.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProductRepository _productRepository;
+        private readonly HttpClient _httpClient;
 
         public ProductController(IProductRepository productRepository)
         {
             _productRepository = productRepository;
+            _httpClient = new HttpClient();
+            _httpClient.BaseAddress = new Uri("http://localhost:49457/");
+
         }
 
         [HttpGet]
@@ -32,6 +37,20 @@ namespace Workaholic.ProductService.Api.Controllers
         {
             await _productRepository.Add(product);
             return Ok();
+        }
+
+        [HttpGet("Test")]
+        public async Task<IActionResult> Test()
+        {
+            var response = await _httpClient.GetAsync("api/Category");
+            if (response.IsSuccessStatusCode)
+            {
+                var categoryDataStringAsync = await response.Content.ReadAsStringAsync();
+               var categoryData =  JsonConvert.DeserializeObject<List<Category>>(categoryDataStringAsync);
+                return Ok(categoryData);
+            }
+
+            return Ok(response);
         }
     }
 }
