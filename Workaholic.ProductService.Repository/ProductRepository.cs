@@ -5,9 +5,9 @@ namespace Workaholic.ProductService.Repository;
 
 public class ProductRepository : IProductRepository
 {
-    private readonly UdemyUnitTestDBContext _dbContext;
+    private readonly ProductDBContext _dbContext;
 
-    public ProductRepository(UdemyUnitTestDBContext dbContext)
+    public ProductRepository(ProductDBContext dbContext)
     {
         _dbContext = dbContext;
     }

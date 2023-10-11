@@ -22,7 +22,6 @@ namespace Workaholic.ProductService.Api.Controllers
             _productRepository = productRepository;
             _httpClient = new HttpClient();
             _httpClient.BaseAddress = new Uri("http://localhost:49457/");
-
         }
 
         [HttpGet]
@@ -46,7 +45,7 @@ namespace Workaholic.ProductService.Api.Controllers
             if (response.IsSuccessStatusCode)
             {
                 var categoryDataStringAsync = await response.Content.ReadAsStringAsync();
-               var categoryData =  JsonConvert.DeserializeObject<List<Category>>(categoryDataStringAsync);
+                var categoryData = JsonConvert.DeserializeObject<List<Category>>(categoryDataStringAsync);
                 return Ok(categoryData);
             }
 

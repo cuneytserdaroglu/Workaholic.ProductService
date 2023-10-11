@@ -10,7 +10,7 @@ using Workaholic.ProductService.Repository;
 
 namespace Workaholic.ProductService.Repository.Migrations
 {
-    [DbContext(typeof(UdemyUnitTestDBContext))]
+    [DbContext(typeof(ProductDBContext))]
     partial class UdemyUnitTestDBContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

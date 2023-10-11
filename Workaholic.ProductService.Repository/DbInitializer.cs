@@ -4,13 +4,9 @@ namespace Workaholic.ProductService.Repository;
 
 public static class DbInitializer
 {
-    public static void InitializeSqlServer(UdemyUnitTestDBContext context)
+    public static void InitializeSqlServer(ProductDBContext context)
     {
         context.Database.EnsureCreated();
-
-       
-
-
         context.SaveChanges();
     }
 }

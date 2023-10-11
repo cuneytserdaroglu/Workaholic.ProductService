@@ -3,13 +3,13 @@ using Workaholic.ProductService.Domain;
 
 namespace Workaholic.ProductService.Repository;
 
-public partial class UdemyUnitTestDBContext : DbContext
+public partial class ProductDBContext : DbContext
 {
-    // public UdemyUnitTestDBContext()
+    // public ProductDBContext()
     // {
     // }
 
-    public UdemyUnitTestDBContext(DbContextOptions<UdemyUnitTestDBContext> options)
+    public ProductDBContext(DbContextOptions<ProductDBContext> options)
         : base(options)
     {
     }

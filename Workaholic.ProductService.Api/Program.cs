@@ -15,7 +15,7 @@ builder.Services.AddSwaggerGen();
 
 var a = builder.Configuration["SqlConStr"];
 builder.Services.AddScoped<IProductRepository,ProductRepository>();
-builder.Services.AddDbContext<UdemyUnitTestDBContext>(options =>
+builder.Services.AddDbContext<ProductDBContext>(options =>
 {
     options.UseSqlServer(builder.Configuration["SqlConStr"]);
 });
@@ -27,7 +27,7 @@ using (var scope = app.Services.CreateScope())
     var services = scope.ServiceProvider;
     try
     {
-        var context = services.GetRequiredService<UdemyUnitTestDBContext>();
+        var context = services.GetRequiredService<ProductDBContext>();
 
         DbInitializer.InitializeSqlServer(context);
     }

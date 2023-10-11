@@ -11,7 +11,7 @@ using Workaholic.ProductService.Repository;
 
 namespace Workaholic.ProductService.Repository.Migrations
 {
-    [DbContext(typeof(UdemyUnitTestDBContext))]
+    [DbContext(typeof(ProductDBContext))]
     [Migration("20231007232426_Mig1")]
     partial class Mig1
     {
