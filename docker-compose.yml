@@ -6,6 +6,8 @@
       dockerfile: Workaholic.ProductService.Api/Dockerfile
     depends_on:
       - sqlserver
+    ports:
+      - "1453:80"
   sqlserver:
     image: "mcr.microsoft.com/azure-sql-edge:latest"
     container_name: sqlserver
