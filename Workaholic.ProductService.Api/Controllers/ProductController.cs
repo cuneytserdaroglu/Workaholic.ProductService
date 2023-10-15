@@ -21,7 +21,7 @@ namespace Workaholic.ProductService.Api.Controllers
         {
             _productRepository = productRepository;
             _httpClient = new HttpClient();
-            _httpClient.BaseAddress = new Uri("http://localhost:49457/");
+            _httpClient.BaseAddress = new Uri("http://host.docker.internal:1454/");
         }
 
         [HttpGet]
@@ -41,15 +41,29 @@ namespace Workaholic.ProductService.Api.Controllers
         [HttpGet("Test")]
         public async Task<IActionResult> Test()
         {
-            var response = await _httpClient.GetAsync("api/Category");
-            if (response.IsSuccessStatusCode)
-            {
-                var categoryDataStringAsync = await response.Content.ReadAsStringAsync();
-                var categoryData = JsonConvert.DeserializeObject<List<Category>>(categoryDataStringAsync);
-                return Ok(categoryData);
-            }
+           var maxRetries = 5;
+var retryDelay = TimeSpan.FromSeconds(5);
 
-            return Ok(response);
+for (int i = 0; i < maxRetries; i++)
+{
+    try
+    {
+        var response = await _httpClient.GetAsync("api/Category");
+        if (response.IsSuccessStatusCode)
+        {
+            var categoryDataStringAsync = await response.Content.ReadAsStringAsync();
+            var categoryData = JsonConvert.DeserializeObject<List<Category>>(categoryDataStringAsync);
+            return Ok(categoryData);
+        }
+    }
+    catch (HttpRequestException)
+    {
+        // Log the error or use a more sophisticated retry strategy
+        await Task.Delay(retryDelay);
+    }
+}
+
+return Ok("Failed after multiple retries");
         }
     }
 }

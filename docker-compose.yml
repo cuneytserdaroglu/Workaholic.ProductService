@@ -1,6 +1,8 @@
 ﻿services:
   workaholic.productservice.api:
     image: workaholic.productservice.api
+    networks:
+      - myapp-network
     build:
       context: .
       dockerfile: Workaholic.ProductService.Api/Dockerfile
@@ -18,3 +20,8 @@
       MSSQL_USER: "sa"
     ports:
       - "1433:1433"
+    networks:
+      - myapp-network
+networks:
+  myapp-network:
+    external: true
