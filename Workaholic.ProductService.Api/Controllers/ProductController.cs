@@ -35,6 +35,7 @@ namespace Workaholic.ProductService.Api.Controllers
         public async Task<IActionResult> Post(Product product)
         {
             await _productRepository.Add(product);
+            //Adding product
             return Ok();
         }
 
