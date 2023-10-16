@@ -38,7 +38,7 @@ namespace Workaholic.ProductService.Api.Controllers
             return Ok();
         }
 
-        [HttpGet("Test")]
+        [HttpGet("TestForCategory")]
         public async Task<IActionResult> Test()
         {
            var maxRetries = 5;
