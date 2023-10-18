@@ -36,6 +36,7 @@ namespace Workaholic.ProductService.Api.Controllers
         {
             await _productRepository.Add(product);
             //Adding product
+            //Add product
             return Ok();
         }
 
